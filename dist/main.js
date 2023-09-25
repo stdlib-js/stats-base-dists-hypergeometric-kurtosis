@@ -1,7 +1,7 @@
-/*
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2019 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,20 +16,23 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 4.1
+'use strict';
+
+// MODULES //
+
+var isNonNegativeInteger = require( '@stdlib/math-base-assert-is-nonnegative-integer' );
+var PINF = require( '@stdlib/constants-float64-pinf' );
+
+
+// MAIN //
 
 /**
 * Returns the excess kurtosis of a hypergeometric distribution.
 *
-* ## Notes
-*
-* -   If provided a population size `N`, subpopulation size `K` or draws `n` which is not a nonnegative integer, the function returns `NaN`.
-* -   If the number of draws `n` or subpopulation size `K` exceed population size `N`, the function returns `NaN`.
-*
-* @param N - population size
-* @param K - subpopulation size
-* @param n - number of draws
-* @returns kurtosis
+* @param {NonNegativeInteger} N - population size
+* @param {NonNegativeInteger} K - subpopulation size
+* @param {NonNegativeInteger} n - number of draws
+* @returns {number} kurtosis
 *
 * @example
 * var v = kurtosis( 16, 11, 4 );
@@ -67,9 +70,27 @@
 * var v = kurtosis( 20, 10, NaN );
 * // returns NaN
 */
-declare function kurtosis( N: number, K: number, n: number ): number;
+function kurtosis( N, K, n ) {
+	var p;
+	var q;
+	if (
+		!isNonNegativeInteger( N ) ||
+		!isNonNegativeInteger( K ) ||
+		!isNonNegativeInteger( n ) ||
+		N === PINF ||
+		K === PINF ||
+		K > N ||
+		n > N
+	) {
+		return NaN;
+	}
+	p = ( N-1 ) * ( N*N ) * ( ( N*(N+1) ) - ( 6*K*(N-K) ) - ( 6*n*(N-n) ) );
+	p += 6 * n * K * ( N-K ) * ( N-n ) * ( (5*N) - 6 );
+	q = n * K * ( N-K ) * ( N-n ) * ( N-2 ) * ( N-3 );
+	return p / q;
+}
 
 
 // EXPORTS //
 
-export = kurtosis;
+module.exports = kurtosis;
