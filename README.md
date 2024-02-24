@@ -67,7 +67,7 @@ Imagine a scenario with a population of size `N`, of which a subpopulation of si
 ## Usage
 
 ```javascript
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-kurtosis@v0.2.0-esm/index.mjs';
 ```
 
 #### kurtosis( N, K, n )
@@ -146,7 +146,7 @@ v = kurtosis( 10, 12, 5 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-kurtosis@esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-kurtosis@v0.2.0-esm/index.mjs';
 
 var v;
 var i;
