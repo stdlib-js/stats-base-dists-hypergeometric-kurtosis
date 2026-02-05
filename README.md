@@ -230,11 +230,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-hypergeometric-kurtosis.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-hypergeometric-kurtosis
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-kurtosis/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-kurtosis/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-kurtosis/actions/workflows/test.yml/badge.svg?branch=v0.2.1
+[test-url]: https://github.com/stdlib-js/stats-base-dists-hypergeometric-kurtosis/actions/workflows/test.yml?query=branch:v0.2.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-hypergeometric-kurtosis/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-hypergeometric-kurtosis?branch=main
+[coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-hypergeometric-kurtosis?branch=v0.2.1
 
 <!--
 
