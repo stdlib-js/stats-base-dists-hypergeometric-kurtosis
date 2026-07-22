@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-08)
+## Unreleased (2026-07-22)
+
+<section class="features">
+
+### Features
+
+-   [`4bbc3b1`](https://github.com/stdlib-js/stdlib/commit/4bbc3b1150a0556576ab5a539235643df5428061) - add C implementation for `stats/base/dists/hypergeometric/kurtosis` [(#10360)](https://github.com/stdlib-js/stdlib/pull/10360)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3660](https://github.com/stdlib-js/stdlib/issues/3660)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`4bbc3b1`](https://github.com/stdlib-js/stdlib/commit/4bbc3b1150a0556576ab5a539235643df5428061) - **feat:** add C implementation for `stats/base/dists/hypergeometric/kurtosis` [(#10360)](https://github.com/stdlib-js/stdlib/pull/10360) _(by Vishal.., Neeraj Pathak, Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`b9bddfe`](https://github.com/stdlib-js/stdlib/commit/b9bddfefbcc4f301f5a63c9de30b2c11b13a989f) - **bench:** refactor random number generation in `stats/base/dists/hypergeometric` [(#4955)](https://github.com/stdlib-js/stdlib/pull/4955) _(by Karan Anand)_
@@ -27,10 +50,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Neeraj Pathak
 -   Philipp Burckhardt
+-   Vishal..
 
 </section>
 
