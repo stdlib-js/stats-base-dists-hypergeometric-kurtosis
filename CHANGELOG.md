@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-01)
+## Unreleased (2026-09-30)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a8b5b2e`](https://github.com/stdlib-js/stdlib/commit/a8b5b2e64e530482b2d9976a4fe1d0a43f461c5d) - **test:** migrate `stats/base/dists/hypergeometric/kurtosis` to ULP-based assertions [(#15679)](https://github.com/stdlib-js/stdlib/pull/15679) _(by Athan Reines)_
 -   [`4bbc3b1`](https://github.com/stdlib-js/stdlib/commit/4bbc3b1150a0556576ab5a539235643df5428061) - **feat:** add C implementation for `stats/base/dists/hypergeometric/kurtosis` [(#10360)](https://github.com/stdlib-js/stdlib/pull/10360) _(by Vishal.., Neeraj Pathak, Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
@@ -50,8 +51,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 -   Neeraj Pathak
 -   Philipp Burckhardt
